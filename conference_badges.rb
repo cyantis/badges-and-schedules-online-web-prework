@@ -19,7 +19,7 @@ def assign_rooms(name)
     room_arr.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
     iterate += 1
   end
-  room_arr.each do
+  room_arr.each do |item|
     room_arr.shift
   end
 end
