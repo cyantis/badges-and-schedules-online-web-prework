@@ -22,11 +22,11 @@ def assign_rooms(name)
   room_arr
 end
 
-def printer
-  badge_arr.each do |badge|
+def printer(attendees)
+  badge_arr(attendees).each do |badge|
     puts badge
   end
-  room_arr.each do |assignment|
+  room_arr(attendees).each do |assignment|
     puts assignment
   end
 end
