@@ -20,6 +20,6 @@ def assign_rooms(name)
     iterate += 1
   end
   room_arr.each do |assignment|
-    puts "#{assignment}"
+    puts assignment
   end
 end
