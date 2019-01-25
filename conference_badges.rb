@@ -19,5 +19,7 @@ def assign_rooms(name)
     room_arr.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
     iterate += 1
   end
-  room_arr
+  for room in room_arr
+    
+  end
 end
