@@ -20,6 +20,6 @@ def assign_rooms(name)
     iterate += 1
   end
   room_arr.each do |item|
-    room_arr.shift
+    return room_arr.shift
   end
 end
