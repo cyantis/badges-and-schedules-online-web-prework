@@ -20,6 +20,6 @@ def assign_rooms(name)
     iterate += 1
   end
   for room in room_arr
-    
+    room_arr[room]
   end
 end
