@@ -19,4 +19,14 @@ def assign_rooms(name)
     room_arr.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
     iterate += 1
   end
+  room_arr
+end
+
+def printer
+  badge_arr.each do |badge|
+    puts badge
+  end
+  room_arr.each do |assignment|
+    puts assignment
+  end
 end
