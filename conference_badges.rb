@@ -21,4 +21,5 @@ def assign_rooms(name)
     iterate += 1
     room += 1
   end
+  room_arr
 end
