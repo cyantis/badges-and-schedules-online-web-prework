@@ -17,7 +17,8 @@ def assign_rooms(name)
   iterate = 0
   room = 1
   attendees.each do |name|
-    return "Hello, #{name}! You'll be assigned to room #{room}!"
+    room_arr.push("Hello, #{name}! You'll be assigned to room #{room}!")
+    room_arr[iterate]
     iterate += 1
     room += 1
   end
