@@ -14,10 +14,8 @@ end
 
 def assign_rooms(name)
   room_arr = []
-  iterate = 0
-  attendees.each_with_index do |name, index|
+  attendees.each_with_index.map do |name, index|
     room_arr.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
-    iterate += 1
   end
   room_arr
 end
