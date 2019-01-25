@@ -9,4 +9,5 @@ def batch_badge_creator(attendees)
     badge_arr.push(badge_maker(name))
     iterate += 1
   end
+  badge_arr
 end
