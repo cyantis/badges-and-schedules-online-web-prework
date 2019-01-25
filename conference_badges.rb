@@ -4,9 +4,10 @@ end
 
 def batch_badge_creator(attendees)
   badge_arr = []
+  iterate = 0
   attendees.each do |name|
     badge_arr.push(badge_maker(name))
-    name += 1
+    iterate += 1
   end
   badge_arr
 end
